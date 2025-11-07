@@ -168,18 +168,6 @@ export default function Projects() {
                       <FiGithub size={18} />
                       <span className="text-sm">Code</span>
                     </a>
-                    {project.demo && (
-                      <a
-                        href={project.demo}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        onClick={(e) => e.stopPropagation()}
-                        className="flex items-center gap-2 text-accent-purple hover:text-accent-purple/80 transition-colors"
-                      >
-                        <FiExternalLink size={18} />
-                        <span className="text-sm">Demo</span>
-                      </a>
-                    )}
                   </div>
                 </div>
               </motion.div>
