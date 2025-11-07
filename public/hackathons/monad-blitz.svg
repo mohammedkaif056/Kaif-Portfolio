@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="monadBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blockGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#2563eb;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#050505"/>
+  <rect width="1200" height="630" fill="url(#monadBg)" opacity="0.25"/>
+  
+  <!-- Blockchain Grid -->
+  <pattern id="monadGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+    <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(124,58,237,0.15)" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#monadGrid)"/>
+  
+  <!-- Blockchain Blocks -->
+  <g transform="translate(800, 150)">
+    <!-- Block Chain -->
+    <g opacity="0.7">
+      <!-- Block 1 -->
+      <rect x="0" y="0" width="80" height="80" rx="8" fill="none" stroke="#7c3aed" stroke-width="3"/>
+      <circle cx="40" cy="40" r="15" fill="#7c3aed" opacity="0.3"/>
+      <path d="M 30,40 L 40,50 L 50,30" stroke="#a78bfa" stroke-width="2" fill="none"/>
+      
+      <!-- Connection Line -->
+      <line x1="80" y1="40" x2="120" y2="40" stroke="#2563eb" stroke-width="3" stroke-dasharray="5,5"/>
+      
+      <!-- Block 2 -->
+      <rect x="120" y="0" width="80" height="80" rx="8" fill="none" stroke="#2563eb" stroke-width="3"/>
+      <circle cx="160" cy="40" r="15" fill="#2563eb" opacity="0.3"/>
+      <path d="M 150,40 L 160,50 L 170,30" stroke="#60a5fa" stroke-width="2" fill="none"/>
+      
+      <!-- Connection Line -->
+      <line x1="200" y1="40" x2="240" y2="40" stroke="#7c3aed" stroke-width="3" stroke-dasharray="5,5"/>
+      
+      <!-- Block 3 -->
+      <rect x="240" y="0" width="80" height="80" rx="8" fill="none" stroke="#7c3aed" stroke-width="3"/>
+      <circle cx="280" cy="40" r="15" fill="#7c3aed" opacity="0.3"/>
+      <path d="M 270,40 L 280,50 L 290,30" stroke="#a78bfa" stroke-width="2" fill="none"/>
+    </g>
+    
+    <!-- Vertical Chain -->
+    <g opacity="0.5">
+      <line x1="160" y1="80" x2="160" y2="120" stroke="#2563eb" stroke-width="2" stroke-dasharray="4,4"/>
+      <rect x="120" y="120" width="80" height="80" rx="8" fill="none" stroke="#2563eb" stroke-width="2"/>
+      <circle cx="160" cy="160" r="12" fill="#2563eb" opacity="0.2"/>
+      
+      <line x1="160" y1="200" x2="160" y2="240" stroke="#7c3aed" stroke-width="2" stroke-dasharray="4,4"/>
+      <rect x="120" y="240" width="80" height="80" rx="8" fill="none" stroke="#7c3aed" stroke-width="2"/>
+      <circle cx="160" cy="280" r="12" fill="#7c3aed" opacity="0.2"/>
+    </g>
+  </g>
+  
+  <!-- Particles -->
+  <circle cx="200" cy="120" r="4" fill="#7c3aed" opacity="0.8"/>
+  <circle cx="350" cy="480" r="3" fill="#2563eb" opacity="0.6"/>
+  <circle cx="950" cy="180" r="3" fill="#a78bfa" opacity="0.7"/>
+  <circle cx="150" cy="520" r="4" fill="#60a5fa" opacity="0.5"/>
+  
+  <!-- Content -->
+  <g transform="translate(80, 220)">
+    <text x="0" y="0" font-family="'Inter', system-ui, sans-serif" font-size="68" font-weight="bold" fill="#ffffff">
+      Monad Blitz
+    </text>
+    <text x="0" y="75" font-family="'Inter', system-ui, sans-serif" font-size="46" font-weight="600" fill="#a78bfa">
+      Web3 Hackathon
+    </text>
+    <text x="0" y="130" font-family="'Inter', system-ui, sans-serif" font-size="26" fill="#9ca3af">
+      Blockchain Innovation Challenge
+    </text>
+  </g>
+  
+  <!-- Tags -->
+  <g transform="translate(80, 480)">
+    <rect x="0" y="0" width="120" height="40" rx="20" fill="rgba(124,58,237,0.2)" stroke="#7c3aed" stroke-width="2"/>
+    <text x="60" y="27" font-family="'Inter', sans-serif" font-size="18" font-weight="600" fill="#a78bfa" text-anchor="middle">Web3</text>
+    
+    <rect x="140" y="0" width="180" height="40" rx="20" fill="rgba(37,99,235,0.2)" stroke="#2563eb" stroke-width="2"/>
+    <text x="230" y="27" font-family="'Inter', sans-serif" font-size="18" font-weight="600" fill="#60a5fa" text-anchor="middle">Blockchain</text>
+    
+    <rect x="340" y="0" width="130" height="40" rx="20" fill="rgba(167,139,250,0.2)" stroke="#a78bfa" stroke-width="2"/>
+    <text x="405" y="27" font-family="'Inter', sans-serif" font-size="18" font-weight="600" fill="#a78bfa" text-anchor="middle">DApp</text>
+  </g>
+</svg>

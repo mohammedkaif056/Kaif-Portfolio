@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="yatraBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#f97316;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="630" fill="#0a0a0a"/>
+  <rect width="1200" height="630" fill="url(#yatraBg)"/>
+  
+  <!-- Road Pattern -->
+  <g opacity="0.1">
+    <path d="M 0,300 Q 300,250 600,300 Q 900,350 1200,300" stroke="#ef4444" stroke-width="4" fill="none" stroke-dasharray="20,10"/>
+    <path d="M 0,320 Q 300,270 600,320 Q 900,370 1200,320" stroke="#f97316" stroke-width="4" fill="none" stroke-dasharray="20,10"/>
+  </g>
+  
+  <!-- Shield with Location Pin -->
+  <g transform="translate(850, 200)">
+    <circle cx="0" cy="0" r="130" fill="rgba(239,68,68,0.1)"/>
+    <!-- Shield -->
+    <path d="M 0,-80 L -60,-50 L -60,30 Q -60,80 0,100 Q 60,80 60,30 L 60,-50 Z" 
+          fill="rgba(249,115,22,0.2)" stroke="#ef4444" stroke-width="4"/>
+    
+    <!-- Location Pin -->
+    <g transform="translate(0, -20)">
+      <path d="M 0,-30 Q -25,-30 -25,-10 Q -25,10 0,35 Q 25,10 25,-10 Q 25,-30 0,-30 Z" 
+            fill="#ef4444"/>
+      <circle cx="0" cy="-10" r="8" fill="#fff"/>
+    </g>
+    
+    <!-- SOS Badge -->
+    <rect x="-30" y="50" width="60" height="25" rx="12" fill="#dc2626"/>
+    <text x="0" y="68" font-family="'Inter', sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">SOS</text>
+  </g>
+  
+  <g transform="translate(120, 180)">
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="70" font-weight="bold" fill="#ffffff">YatraKavach</text>
+    <text x="0" y="75" font-family="'Inter', sans-serif" font-size="40" font-weight="600" fill="#ef4444">Travel Safety App</text>
+    <text x="0" y="125" font-family="'Inter', sans-serif" font-size="24" fill="#9ca3af">Your Journey Protection Companion</text>
+    
+    <!-- Features -->
+    <g transform="translate(0, 180)" font-family="'Inter', sans-serif" font-size="20" fill="#d1d5db">
+      <text x="0" y="0">🛡️ Real-time Safety Monitoring</text>
+      <text x="0" y="45">📍 Live Location Tracking</text>
+      <text x="0" y="90">🚨 Emergency SOS Alerts</text>
+      <text x="0" y="135">👥 Trusted Contact Network</text>
+    </g>
+  </g>
+  
+  <g transform="translate(150, 560)">
+    <rect x="0" y="0" width="140" height="30" rx="15" fill="rgba(239,68,68,0.2)" stroke="#ef4444" stroke-width="1.5"/>
+    <text x="70" y="20" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#ef4444" text-anchor="middle">React Native</text>
+    
+    <rect x="160" y="0" width="110" height="30" rx="15" fill="rgba(249,115,22,0.2)" stroke="#f97316" stroke-width="1.5"/>
+    <text x="215" y="20" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#fb923c" text-anchor="middle">Firebase</text>
+  </g>
+</svg>

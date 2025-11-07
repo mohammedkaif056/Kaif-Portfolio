@@ -1,0 +1,52 @@
+{
+  "hackathons": [
+    {
+      "id": "genaiversity-2025",
+      "name": "Genaiversity Hackathon",
+      "date": "March 2025",
+      "location": "Hyderabad, India",
+      "organizer": "Genaiversity",
+      "description": "Participated in the Genaiversity AI-focused hackathon, working on innovative generative AI solutions. Collaborated with talented developers to build cutting-edge AI applications and explore the latest in machine learning and artificial intelligence technologies.",
+      "tags": ["AI", "GenAI", "Machine Learning", "Innovation"],
+      "achievement": "Participant",
+      "image": "/hackathons/genaiversity.svg",
+      "linkedinPost": "https://www.linkedin.com/posts/mohammed-kaif-pasha-138003255_genaiversity-hackathon-ai-activity-7387857801211125760-3S8y"
+    },
+    {
+      "id": "monad-blitz-2024",
+      "name": "Monad Blitz Hackathon",
+      "date": "December 2024",
+      "location": "CoKarma, Hyderabad",
+      "organizer": "Monad Foundation",
+      "description": "Competed in the Monad Blitz hackathon, a Web3 blockchain development competition focused on building high-performance decentralized applications on the Monad blockchain. Worked on creating innovative smart contracts and exploring Layer 1 blockchain solutions.",
+      "tags": ["Web3", "Blockchain", "Smart Contracts", "DApp Development"],
+      "achievement": "Participant",
+      "image": "/hackathons/monad-blitz.svg",
+      "linkedinPost": "https://www.linkedin.com/posts/mohammed-kaif-pasha-138003255_monadblitz-web3hackathon-monadfoundation-activity-7350500899565301761--kI3"
+    },
+    {
+      "id": "jupiverse-2024",
+      "name": "Jupiverse Hackathon by HyderabadDAO",
+      "date": "November 2024",
+      "location": "Hyderabad, India",
+      "organizer": "HyderabadDAO",
+      "description": "Participated in the Jupiverse hackathon organized by HyderabadDAO, focusing on Web3 innovation and decentralized applications. Built solutions leveraging blockchain technology and explored DeFi protocols, NFTs, and decentralized governance systems.",
+      "tags": ["Web3", "DAO", "DeFi", "Blockchain"],
+      "achievement": "Participant",
+      "image": "/hackathons/jupiverse.svg",
+      "linkedinPost": "https://www.linkedin.com/posts/mohammed-kaif-pasha-138003255_hyderabaddao-hackathon-web3-activity-7343153938658955264-wD9b"
+    },
+    {
+      "id": "mahindra-aeon-2024",
+      "name": "Mahindra University Aeon Fest Hackathon",
+      "date": "October 2024",
+      "location": "Mahindra University, Hyderabad",
+      "organizer": "Mahindra University",
+      "description": "Competed in the Aeon Fest hackathon at Mahindra University, a premier Web3 and blockchain development competition. Worked on innovative decentralized solutions and collaborated with industry experts to build next-generation blockchain applications.",
+      "tags": ["Web3", "Blockchain", "University Hackathon", "Innovation"],
+      "achievement": "Participant",
+      "image": "/hackathons/mahindra-aeon.svg",
+      "linkedinPost": "https://www.linkedin.com/posts/mohammed-kaif-pasha-138003255_web3-hackathon-mahindrauniversity-activity-7316486374616965123-loOs"
+    }
+  ]
+}

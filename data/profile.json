@@ -1,0 +1,85 @@
+{
+  "name": "Mohammed Kaif Pasha",
+  "tagline": "AI Engineer • Full-Stack Developer • Innovator",
+  "hero": {
+    "headline": "Hi, I'm Mohammed Kaif Pasha — Building Intelligent Digital Futures.",
+    "typewriterPhrases": [
+      "AI Engineer",
+      "Full-Stack Developer",
+      "Innovator",
+      "Web3 & Data Enthusiast"
+    ]
+  },
+  "location": "Hyderabad, India",
+  "email": "mdkaifpasha2k@gmail.com",
+  "bio": "Computer Science Engineering student at Osmania University with a passion for building intelligent systems that solve real-world problems. I specialize in AI/ML, full-stack development, and blockchain technologies, focusing on creating impactful solutions at the intersection of emerging technologies.",
+  "education": [
+    {
+      "degree": "B.E./B.Tech, Computer Science & Engineering",
+      "institution": "Osmania University",
+      "location": "Hyderabad, India",
+      "period": "2023 - 2026",
+      "description": "Pursuing undergraduate studies in Computer Science with focus on Machine Learning, Data Science, and Full-Stack Development."
+    },
+    {
+      "degree": "Diploma in Computer Science & Engineering",
+      "institution": "State Board of Technical Education, Telangana",
+      "location": "Hyderabad, India",
+      "period": "2020 - 2023",
+      "description": "Completed diploma with strong foundation in programming, web development, and computer fundamentals."
+    }
+  ],
+  "links": {
+    "github": "https://github.com/mohammedkaif056",
+    "linkedin": "https://www.linkedin.com/in/mohammed-kaif-pasha-138003255",
+    "twitter": "https://x.com/mdkaifpasha2k",
+    "email": "mdkaifpasha2k@gmail.com"
+  },
+  "skills": {
+    "languages": ["Python", "JavaScript", "TypeScript", "Solidity", "SQL"],
+    "frontend": ["React", "Next.js", "Tailwind CSS", "Framer Motion", "React Three Fiber"],
+    "backend": ["Node.js", "FastAPI", "Express", "MongoDB", "MySQL", "Supabase"],
+    "aiml": ["TensorFlow", "PyTorch", "OpenCV", "LangChain", "DNABERT", "Groq"],
+    "web3": ["Solidity", "Hardhat", "Ethers.js", "Wagmi", "IPFS", "Base"],
+    "tools": ["Git", "Docker", "Vercel", "Heroku", "Postman"],
+    "learning": ["Hadoop", "Spark", "PowerBI", "Tableau"]
+  },
+  "experience": [
+    {
+      "title": "Industrial Training - Full Stack Development",
+      "company": "Pixel Quest",
+      "location": "Hyderabad, India",
+      "period": "June 2022 - December 2022",
+      "description": "Hands-on training in modern web development technologies, working on real-world projects and industry-standard practices.",
+      "type": "training"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Base Blockchain Hackathon",
+      "description": "Built BioNova-GenEditor leveraging Base for genomic data verification",
+      "date": "2024"
+    },
+    {
+      "title": "Groq AI Integration",
+      "description": "Implemented high-performance AI inference using Groq's LPU technology",
+      "date": "2024"
+    },
+    {
+      "title": "Industrial Training Completion",
+      "description": "Successfully completed 6-month industrial training at Pixel Quest in Full-Stack Development",
+      "date": "2022"
+    },
+    {
+      "title": "Open Source Contributor",
+      "description": "Active contributor to multiple open-source projects in AI/ML and Web3",
+      "date": "Ongoing"
+    }
+  ],
+  "values": [
+    "Innovation through practical application",
+    "Open-source collaboration",
+    "Continuous learning and growth",
+    "Building for real-world impact"
+  ]
+}

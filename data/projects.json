@@ -1,0 +1,96 @@
+{
+  "featured": [
+    {
+      "id": "bionova-geneditor",
+      "name": "BioNova-GenEditor",
+      "summary": "AI + IoT + Base blockchain platform for CRISPR gRNA design and lab monitoring; DNABERT on Groq; modular Next.js/Node/Python.",
+      "description": "A comprehensive platform combining AI-powered genomic editing with IoT lab monitoring and blockchain verification. Uses DNABERT for intelligent gRNA design recommendations, real-time IoT sensors for lab condition monitoring, and Base blockchain for secure data provenance.",
+      "stack": ["Next.js", "React", "TypeScript", "Tailwind", "Node.js", "FastAPI", "Python", "DNABERT", "Groq", "MongoDB", "Base", "Wagmi"],
+      "source": "https://github.com/mohammedkaif056/BioNova-GenEditor",
+      "demo": "",
+      "image": "/projects/bionova.svg",
+      "featured": true,
+      "tags": ["AI", "Blockchain", "IoT", "Healthcare"]
+    },
+    {
+      "id": "technix-crm",
+      "name": "Technix-CRM",
+      "summary": "Modern CRM with Next.js + Node; form validation (Formik+Yup), responsive UI, optimized performance.",
+      "description": "Enterprise-grade Customer Relationship Management system built with modern web technologies. Features include advanced form validation, responsive design, real-time data synchronization, and performance-optimized architecture for handling large datasets.",
+      "stack": ["Next.js", "TypeScript", "Node.js", "Tailwind", "Sass", "Formik", "Yup"],
+      "source": "https://github.com/mohammedkaif056/Technix-CRM",
+      "demo": "",
+      "image": "/projects/technix.svg",
+      "featured": true,
+      "tags": ["Full-Stack", "Enterprise", "CRM"]
+    },
+    {
+      "id": "nftix",
+      "name": "NFTix",
+      "summary": "Ethereum NFT marketplace for college event ticketing; MetaMask integration; Hardhat + Next.js; local→testnet playbook.",
+      "description": "Decentralized event ticketing platform leveraging Ethereum NFTs to combat fraud and enable transparent secondary markets. Includes MetaMask wallet integration, smart contract deployment pipeline, and comprehensive testing framework.",
+      "stack": ["Solidity", "Hardhat", "Next.js", "TypeScript", "Ethers.js", "Tailwind", "IPFS"],
+      "source": "https://github.com/mohammedkaif056/NFTix",
+      "demo": "",
+      "image": "/projects/nftix.svg",
+      "featured": true,
+      "tags": ["Web3", "Smart Contracts", "NFT"]
+    }
+  ],
+  "other": [
+    {
+      "id": "civic",
+      "name": "Civic",
+      "summary": "Civic engagement platform for community issue reporting and tracking.",
+      "stack": ["React", "Node.js", "MongoDB"],
+      "source": "https://github.com/mohammedkaif056/Civic",
+      "image": "/projects/civic.svg",
+      "tags": ["Full-Stack", "Community"]
+    },
+    {
+      "id": "yatrakavach",
+      "name": "YatraKavach",
+      "summary": "Travel safety and assistance application.",
+      "stack": ["React Native", "Firebase"],
+      "source": "https://github.com/mohammedkaif056/YatraKavach",
+      "image": "/projects/yatrakavach.svg",
+      "tags": ["Mobile", "Safety"]
+    },
+    {
+      "id": "orbit-flash",
+      "name": "Orbit-Flash",
+      "summary": "Real-time data visualization platform.",
+      "stack": ["Next.js", "D3.js", "WebSocket"],
+      "source": "https://github.com/mohammedkaif056/Orbit-Flash",
+      "image": "/projects/orbit-flash.svg",
+      "tags": ["Data Viz", "Real-time"]
+    },
+    {
+      "id": "safe-guard",
+      "name": "Safe-Guard",
+      "summary": "Security monitoring and alert system.",
+      "stack": ["Python", "OpenCV", "Flask"],
+      "source": "https://github.com/mohammedkaif056/Safe-Guard",
+      "image": "/projects/safe-guard.svg",
+      "tags": ["AI", "Security"]
+    },
+    {
+      "id": "air-lens-ai",
+      "name": "Air-Lens-AI",
+      "summary": "AI-powered air quality analysis and prediction.",
+      "stack": ["Python", "TensorFlow", "FastAPI"],
+      "source": "https://github.com/mohammedkaif056/Air-Lens-AI",
+      "image": "/projects/air-lens-ai.svg",
+      "tags": ["AI", "Environment"]
+    },
+    {
+      "id": "satellite-web",
+      "name": "Satellite Image Enhancement",
+      "summary": "Web app for satellite image processing without downscaling.",
+      "stack": ["Python", "OpenCV", "Streamlit"],
+      "source": "https://github.com/mohammedkaif056/satellite-no-downscaling-web-app",
+      "image": "/projects/satellite-web.svg",
+      "tags": ["Computer Vision", "GIS"]
+    }
+  ]
+}
