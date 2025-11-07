@@ -116,11 +116,6 @@ export default function Projects() {
                       <span className="text-4xl font-bold text-gradient">{project.name[0]}</span>
                     </div>
                   )}
-                  {project.featured && (
-                    <div className="absolute top-4 right-4 px-3 py-1 bg-primary-500 rounded-full text-xs font-semibold text-white">
-                      Featured
-                    </div>
-                  )}
                 </div>
 
                 {/* Project Info */}
