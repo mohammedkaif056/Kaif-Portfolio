@@ -101,7 +101,7 @@ export default function About() {
 
             {/* Skills & Stats */}
             <motion.div variants={itemVariants} className="space-y-6">
-              {/* Technical Skills Grid */}
+              {/* Technical Skills Grid
               <div className="card-glass p-8 hover-lift">
                 <h3 className="text-2xl font-bold text-white mb-6">Technical Expertise</h3>
                 
@@ -127,7 +127,7 @@ export default function About() {
                   )
                 })}
                 
-                {/* Learning */}
+                {/* Learning }
                 <div className="mt-8 pt-6 border-t border-white/10">
                   <h4 className="text-sm font-semibold text-accent-purple uppercase tracking-wide mb-3">
                     Currently Learning
@@ -143,7 +143,7 @@ export default function About() {
                     ))}
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* Achievements */}
               <div className="card-glass p-8 hover-lift">
