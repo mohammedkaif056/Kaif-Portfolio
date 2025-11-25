@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#0f172a"/>
+  
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="htfGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="htfGlow">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Glow Effect -->
+  <circle cx="200" cy="150" r="120" fill="url(#htfGlow)"/>
+  
+  <!-- Microsoft Logo Style -->
+  <rect x="80" y="80" width="60" height="60" fill="#f25022" opacity="0.8"/>
+  <rect x="150" y="80" width="60" height="60" fill="#7fba00" opacity="0.8"/>
+  <rect x="80" y="150" width="60" height="60" fill="#00a4ef" opacity="0.8"/>
+  <rect x="150" y="150" width="60" height="60" fill="#ffb900" opacity="0.8"/>
+  
+  <!-- Code Brackets -->
+  <text x="240" y="140" font-family="monospace" font-size="80" fill="url(#htfGrad)" font-weight="bold">&lt;/&gt;</text>
+  
+  <!-- 48H Badge -->
+  <circle cx="320" cy="80" r="30" fill="url(#htfGrad)"/>
+  <text x="320" y="85" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">48H</text>
+  
+  <!-- Apify/Cloud Icons -->
+  <circle cx="100" cy="240" r="15" fill="#6366f1" opacity="0.6"/>
+  <circle cx="140" cy="240" r="15" fill="#a855f7" opacity="0.6"/>
+  <circle cx="180" cy="240" r="15" fill="#06b6d4" opacity="0.6"/>
+  
+  <!-- Innovation Dots -->
+  <circle cx="320" cy="200" r="5" fill="#6366f1"/>
+  <circle cx="340" cy="210" r="5" fill="#a855f7"/>
+  <circle cx="330" cy="230" r="5" fill="#ec4899"/>
+</svg>

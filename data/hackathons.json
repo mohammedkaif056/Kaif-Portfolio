@@ -1,6 +1,42 @@
 {
   "hackathons": [
     {
+      "id": "hack-this-fall-2025",
+      "name": "Hack This Fall 2025 – Build Station",
+      "date": "November 2025",
+      "location": "Microsoft Hyderabad, India",
+      "organizer": "Hack This Fall",
+      "description": "Participated in Hack This Fall 2025 at Microsoft Hyderabad, collaborating with developers to build innovative solutions under 48-hour time pressure. Worked with cutting-edge tools like Apify for web automation, GitHub for version control, and Vultr for cloud deployment. Gained hands-on experience in teamwork, rapid prototyping, and full-stack + AI development in a real hackathon environment.",
+      "tags": ["AI", "Full-Stack", "Cloud", "Automation", "48-Hour Sprint"],
+      "achievement": "Participant",
+      "image": "/hackathons/hack-this-fall.svg",
+      "linkedinPost": "https://www.linkedin.com/posts/mohammed-kaif-pasha-138003255_hackthisfall-htf2025-microsofthyderabad-activity-7398951361339379712-3D6T"
+    },
+    {
+      "id": "blockchain-tour-india-2025",
+      "name": "Indian Blockchain Tour - Hyderabad",
+      "date": "July 2025",
+      "location": "Le Meridian Hotel, Hyderabad",
+      "organizer": "Blockchain Tour India",
+      "description": "Attended the Indian Blockchain Tour in Hyderabad, an exclusive networking event bringing together blockchain enthusiasts, developers, and industry leaders. Engaged in insightful discussions about the future of Web3, discovered emerging blockchain projects, and connected with like-minded innovators. The event featured expert talks, networking sessions, and exclusive swags celebrating blockchain innovation.",
+      "tags": ["Web3", "Blockchain", "Networking", "Industry Leaders", "Community"],
+      "achievement": "Attendee",
+      "image": "/hackathons/blockchain-tour.svg",
+      "linkedinPost": "https://www.linkedin.com/posts/mohammed-kaif-pasha-138003255_indiablockchaintour-web3developers-decentralizedfuture-activity-7345311263796752384--dyv"
+    },
+    {
+      "id": "hackprix-2025",
+      "name": "HackPrix 2025",
+      "date": "June 2025",
+      "location": "Lords Institute of Engineering & Technology",
+      "organizer": "Lords Institute",
+      "description": "Competed in HackPrix 2025, an intense 36-hour coding marathon at Lords Institute of Engineering and Technology. Demonstrated long-lasting performance and exceptional teamwork to build innovative solutions. Pushed through the challenge with dedication, creativity, and technical excellence, showcasing the ability to deliver under extended time constraints.",
+      "tags": ["36-Hour Marathon", "Team Collaboration", "Innovation", "Endurance Coding"],
+      "achievement": "Participant",
+      "image": "/hackathons/hackprix.svg",
+      "linkedinPost": "#"
+    },
+    {
       "id": "genaiversity-2025",
       "name": "Genaiversity Hackathon",
       "date": "March 2025",
@@ -23,6 +59,17 @@
       "achievement": "Participant",
       "image": "/hackathons/monad-blitz.svg",
       "linkedinPost": "https://www.linkedin.com/posts/mohammed-kaif-pasha-138003255_monadblitz-web3hackathon-monadfoundation-activity-7350500899565301761--kI3"
+    },
+    {
+      "id": "datanyx-2024",
+      "name": "Datanyx 2024",
+      "date": "November 2024",
+      "location": "MJCET, Hyderabad",
+      "organizer": "MJCET",
+      "description": "Participated in Datanyx 2024, an exhilarating 24-hour coding marathon at MJCET. Experienced the thrill of non-stop development, problem-solving, and innovation. The event was a perfect blend of intense coding sessions, strategic power naps, and collaborative brainstorming. Enjoyed every moment of the hackathon culture – from midnight debugging to early morning breakthroughs, making it an unforgettable coding experience.",
+      "tags": ["24-Hour Hackathon", "Data Science", "Coding Marathon", "Team Spirit"],
+      "achievement": "Participant",
+      "image": "/hackathons/datanyx.svg"
     },
     {
       "id": "jupiverse-2024",

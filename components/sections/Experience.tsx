@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { FiCalendar, FiMapPin } from 'react-icons/fi'
 import profileData from '@/data/profile.json'
+import CreativeBackground from './CreativeBackground'
 
 export default function Experience() {
   const [ref, inView] = useInView({
@@ -27,8 +28,13 @@ export default function Experience() {
   }
 
   return (
-    <section id="experience" ref={ref} className="py-24 bg-black">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="experience" ref={ref} className="py-24 bg-black relative overflow-hidden">
+      {/* Creative 3D Background */}
+      <div className="absolute inset-0 opacity-25">
+        <CreativeBackground />
+      </div>
+      
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div
           variants={containerVariants}
           initial="hidden"

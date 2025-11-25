@@ -5,6 +5,7 @@ import { Canvas } from '@react-three/fiber'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import SkillOrbit from '../3d/SkillOrbit'
+import { SkillsOrbs, CodeRain } from '../effects/SectionBackgrounds'
 
 const skillCategories = [
   {
@@ -62,6 +63,10 @@ export default function Skills() {
 
   return (
     <section id="skills" ref={ref} className="py-24 bg-gradient-to-b from-gray-900 to-black relative overflow-hidden">
+      {/* Animated Backgrounds */}
+      <SkillsOrbs />
+      <CodeRain />
+      
       {/* 3D Background */}
       <div className="absolute inset-0 opacity-30">
         <Canvas camera={{ position: [0, 0, 8] }}>

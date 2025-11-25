@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#0c1222"/>
+  
+  <!-- Gradient -->
+  <defs>
+    <linearGradient id="dnGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="dnGlow">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Glow -->
+  <circle cx="200" cy="150" r="130" fill="url(#dnGlow)"/>
+  
+  <!-- Data Chart Bars -->
+  <rect x="80" y="180" width="30" height="60" fill="url(#dnGrad)" opacity="0.8" rx="3"/>
+  <rect x="130" y="140" width="30" height="100" fill="url(#dnGrad)" opacity="0.8" rx="3"/>
+  <rect x="180" y="160" width="30" height="80" fill="url(#dnGrad)" opacity="0.8" rx="3"/>
+  <rect x="230" y="120" width="30" height="120" fill="url(#dnGrad)" opacity="0.8" rx="3"/>
+  <rect x="280" y="150" width="30" height="90" fill="url(#dnGrad)" opacity="0.8" rx="3"/>
+  
+  <!-- Data Points -->
+  <circle cx="95" cy="175" r="5" fill="#06b6d4"/>
+  <circle cx="145" cy="135" r="5" fill="#3b82f6"/>
+  <circle cx="195" cy="155" r="5" fill="#6366f1"/>
+  <circle cx="245" cy="115" r="5" fill="#06b6d4"/>
+  <circle cx="295" cy="145" r="5" fill="#3b82f6"/>
+  
+  <!-- Connection Line -->
+  <polyline points="95,175 145,135 195,155 245,115 295,145" 
+            fill="none" stroke="url(#dnGrad)" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Clock/24H Symbol -->
+  <circle cx="200" cy="80" r="35" fill="none" stroke="url(#dnGrad)" stroke-width="3"/>
+  <line x1="200" y1="80" x2="200" y2="60" stroke="url(#dnGrad)" stroke-width="3"/>
+  <line x1="200" y1="80" x2="220" y2="90" stroke="url(#dnGrad)" stroke-width="3"/>
+  <text x="200" y="135" font-family="Arial" font-size="16" fill="#06b6d4" text-anchor="middle" font-weight="bold">24 HOURS</text>
+  
+  <!-- Code Symbols -->
+  <text x="320" y="60" font-family="monospace" font-size="24" fill="url(#dnGrad)" opacity="0.6">{}</text>
+  <text x="60" y="60" font-family="monospace" font-size="24" fill="url(#dnGrad)" opacity="0.6">[]</text>
+  <text x="340" y="250" font-family="monospace" font-size="20" fill="url(#dnGrad)" opacity="0.6">&lt;/&gt;</text>
+  
+  <!-- Energy/Lightning Bolt -->
+  <polygon points="320,180 310,200 315,200 305,220 320,205 315,205 325,190" fill="#fbbf24" opacity="0.8"/>
+  
+  <!-- Coffee Cup (for all-nighter) -->
+  <rect x="70" y="250" width="30" height="35" fill="none" stroke="#06b6d4" stroke-width="2" rx="2"/>
+  <ellipse cx="85" cy="250" rx="18" ry="5" fill="#06b6d4" opacity="0.3"/>
+  <path d="M 100 260 Q 110 260, 110 270" fill="none" stroke="#06b6d4" stroke-width="2"/>
+</svg>

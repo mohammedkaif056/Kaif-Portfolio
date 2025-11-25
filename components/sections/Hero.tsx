@@ -1,11 +1,14 @@
 'use client'
 
 import { Suspense } from 'react'
+import { Canvas } from '@react-three/fiber'
+import { OrbitControls, PerspectiveCamera, Environment, Stars } from '@react-three/drei'
 import { motion } from 'framer-motion'
 import { TypeAnimation } from 'react-type-animation'
 import { FiGithub, FiLinkedin, FiMail, FiArrowDown } from 'react-icons/fi'
 import { FaXTwitter } from 'react-icons/fa6'
 import TechnicalBackground from '../3d/TechnicalBackground'
+import { Spacecraft } from '../3d/Vehicles'
 import profileData from '@/data/profile.json'
 
 export default function Hero() {
@@ -15,12 +18,37 @@ export default function Hero() {
 
   return (
     <section id="hero" className="relative h-screen w-full overflow-hidden bg-black">
-      {/* Technical Background */}
+      {/* Technical Background with optional 3D */}
       <div className="absolute inset-0 z-0">
-        <Suspense fallback={<div className="absolute inset-0 bg-gradient-to-b from-black to-gray-900" />}>
-          <TechnicalBackground />
-        </Suspense>
+        <TechnicalBackground />
+        
+        {/* 3D Enhancement Layer (optional) */}
+        <div className="absolute inset-0 opacity-30">
+          <Suspense fallback={null}>
+            <Canvas 
+              camera={{ position: [0, 0, 10], fov: 75 }}
+              gl={{ antialias: false, alpha: true }}
+              dpr={[1, 1.5]}
+            >
+              {/* Lighting */}
+              <ambientLight intensity={0.5} />
+              <pointLight position={[10, 10, 10]} intensity={1} />
+              <pointLight position={[-10, -10, -10]} intensity={0.5} color="#a855f7" />
+              
+              {/* Stars background */}
+              <Stars radius={100} depth={50} count={3000} factor={4} saturation={0} fade speed={1} />
+              
+              {/* 3D Spacecraft */}
+              <Suspense fallback={null}>
+                <Spacecraft />
+              </Suspense>
+            </Canvas>
+          </Suspense>
+        </div>
       </div>
+
+      {/* Gradient Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/60 z-5" />
 
       {/* Content Overlay */}
       <div className="relative z-10 h-full flex items-center justify-center">

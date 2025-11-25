@@ -115,16 +115,18 @@ export default function Hackathons() {
                     ))}
                   </div>
 
-                  {/* View Post Link */}
-                  <a
-                    href={hackathon.linkedinPost}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-primary hover:text-purple-400 transition-colors group/link"
-                  >
-                    <span className="font-semibold">View LinkedIn Post</span>
-                    <FiExternalLink className="group-hover/link:translate-x-1 group-hover/link:-translate-y-1 transition-transform" />
-                  </a>
+                  {/* View Post Link - Only show if LinkedIn post exists */}
+                  {hackathon.linkedinPost && hackathon.linkedinPost !== '#' && (
+                    <a
+                      href={hackathon.linkedinPost}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-primary hover:text-purple-400 transition-colors group/link"
+                    >
+                      <span className="font-semibold">View LinkedIn Post</span>
+                      <FiExternalLink className="group-hover/link:translate-x-1 group-hover/link:-translate-y-1 transition-transform" />
+                    </a>
+                  )}
                 </div>
 
                 {/* Hover Glow Effect */}

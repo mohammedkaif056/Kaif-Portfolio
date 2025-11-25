@@ -3,6 +3,11 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
+import dynamic from 'next/dynamic'
+
+const BackgroundMusic = dynamic(() => import('@/components/audio/BackgroundMusic'), {
+  ssr: false,
+})
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -50,6 +55,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <Navigation />
+        <BackgroundMusic />
         <main className="min-h-screen">
           {children}
         </main>

@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { FiGithub, FiExternalLink, FiX } from 'react-icons/fi'
 import projectsData from '@/data/projects.json'
+import { ProjectsBackground } from '../effects/SectionBackgrounds'
 
 interface Project {
   id: string
@@ -48,8 +49,10 @@ export default function Projects() {
   }
 
   return (
-    <section id="projects" ref={ref} className="py-24 bg-black">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="projects" ref={ref} className="relative py-24 bg-black overflow-hidden">
+      <ProjectsBackground />
+      
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div
           variants={containerVariants}
           initial="hidden"

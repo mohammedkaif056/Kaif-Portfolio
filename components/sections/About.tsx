@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { FiAward, FiBookOpen, FiTarget } from 'react-icons/fi'
 import profileData from '@/data/profile.json'
+import CreativeBackground from './CreativeBackground'
 
 export default function About() {
   const [ref, inView] = useInView({
@@ -27,8 +28,13 @@ export default function About() {
   }
 
   return (
-    <section id="about" ref={ref} className="py-24 bg-gradient-to-b from-black to-gray-900">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="about" ref={ref} className="py-24 bg-gradient-to-b from-black to-gray-900 relative overflow-hidden">
+      {/* Creative 3D Background with flying elements */}
+      <div className="absolute inset-0 opacity-40">
+        <CreativeBackground />
+      </div>
+      
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div
           variants={containerVariants}
           initial="hidden"
@@ -50,32 +56,6 @@ export default function About() {
                 <p className="text-gray-300 leading-relaxed">
                   {profileData.bio}
                 </p>
-              </div>
-
-              {/* Education */}
-              <div className="card-glass p-8 hover-lift">
-                <div className="flex items-start space-x-4 mb-4">
-                  <div className="p-3 bg-primary-500/20 rounded-lg">
-                    <FiBookOpen className="text-primary-400" size={24} />
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-bold text-white mb-4">Education</h3>
-                  </div>
-                </div>
-                <div className="space-y-4 ml-16">
-                  {profileData.education.map((edu, index) => (
-                    <div key={index} className={index > 0 ? 'pt-4 border-t border-white/10' : ''}>
-                      <h4 className="text-lg text-primary-400 font-semibold">
-                        {edu.degree}
-                      </h4>
-                      <p className="text-gray-400">{edu.institution}</p>
-                      <p className="text-gray-500 text-sm mt-1">{edu.period}</p>
-                      <p className="text-gray-300 mt-2 text-sm">
-                        {edu.description}
-                      </p>
-                    </div>
-                  ))}
-                </div>
               </div>
 
               {/* Values */}
